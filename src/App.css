@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.listofinterested li , .path div{
+   border-radius: 0.25rem;
+   border: 2px solid rgb(209 213 219);
+   display: flex;
+   align-items: center;
+   font-weight: 600;
+   padding-top: 0.79rem;
+   padding-bottom: 0.75rem;
+   justify-content: start;
+   cursor: pointer;
+}
+.path div{
+ padding-block: 2rem;
+}
+.path span{
+  font-weight: 700;
+  margin-right: 4px;
+}
+.algo img{
+  border-radius: 0.25rem;
+  border: 2px solid rgb(209 213 219);
+}
+
+.bar div{
+  transition: 0.5s;
+}
+.circle{
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes spin {
+   from{
+     transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
