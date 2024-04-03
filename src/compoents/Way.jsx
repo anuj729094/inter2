@@ -9,7 +9,7 @@ const Way = ({ func, func2 }) => {
         func2("200%")
     }
     return (
-        <div className='flex flex-col items-center px-3  h-[100svh] justify-center'>
+        <div className='flex flex-col items-center px-3  h-[100vh] justify-center'>
             <div className=' sm:flex md:w-[40rem] sm:items-center '>
                 <div className="img sm:w-[50%] hidden sm:block">
                     <img src={cheer} alt="cheer" />

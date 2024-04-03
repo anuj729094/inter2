@@ -3,8 +3,7 @@ import path from '../assets/path.png'
 const Path = () => {
     return (
         <div className=' fixed top-0 left-0 w-full h-full z-10 bg-white flex justify-center items-center px-3 '>
-            <div className=' sm:w-[40rem]'>
-                <div className=' '>
+                <div className=' sm:w-[40rem]'>
                     <h2 className=' font-bold text-xl lg:text-3xl text-center'>Learning path based on your answers</h2>
                     <p className=' font-semibold text-gray-500 text-sm  my-6 text-center'>Choose one to get started. You can switch anytime</p>
                     <div className='path flex flex-col sm:flex-row gap-3'>
@@ -27,7 +26,6 @@ const Path = () => {
                 </div>
             </div>
 
-        </div>
     )
 }
 
